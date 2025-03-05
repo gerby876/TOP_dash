@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.sidebar{
+    background-color: lightblue;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+
+.header{
+    background-color: green;
+}
+
+.body{
+    background-color: grey;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 20fr;
+    padding: 20px;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-right: 20px;
+}
+
+.card{
+    background-color: black;
+}
+
+.a{
+    display: grid;
+    grid-template-rows: 7fr 1fr 7fr;
+}
+
+#trending{
+    padding-top: 20px;
+}
