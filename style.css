@@ -63,6 +63,24 @@ border-color: orange;
     grid-template-rows: 7fr 1fr 7fr;
 }
 
+#announcement{
+    display: grid;
+    grid-auto-rows: 1fr;
+    padding-left: 30px;
+    padding-right: 20px;
+    gap: 10px;
+}
+
+#announcement>div{
+    border-bottom: solid;
+    border-color: lightgray;
+    border-width: 1px;
+}
+
+.news{
+    margin-top: -8px;
+}
+
 #trending{
     padding-top: 20px;
 }
@@ -76,4 +94,8 @@ border-color: orange;
 
 .clink{
     height: 2rem;
+}
+
+h2{
+    margin-bottom: 0;
 }
