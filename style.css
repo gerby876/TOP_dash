@@ -13,6 +13,7 @@ body{
     background-color: lightblue;
     display: grid;
     grid-template-rows:1fr 5fr;
+    padding-left: 20px;
 }
 
 .links>div{
@@ -25,9 +26,6 @@ body{
     grid-template-rows: 1fr 5fr;
 }
 
-.header{
-    
-}
 
 .body{
     background-color: grey;
@@ -40,6 +38,7 @@ body{
 .projects{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
     gap: 20px;
     padding-right: 20px;
 }
@@ -47,6 +46,9 @@ body{
 .card{
     background-color: white;
     border-radius: 8px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
 }
 
 #project {
@@ -63,4 +65,15 @@ border-color: orange;
 
 #trending{
     padding-top: 20px;
+}
+
+.link{
+    display: flex;
+    flex: 1;
+    align-items: end;
+    justify-content: end;
+}
+
+.clink{
+    height: 2rem;
 }
