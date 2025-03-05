@@ -19,7 +19,7 @@ body{
 }
 
 .header{
-    background-color: green;
+    
 }
 
 .body{
@@ -38,8 +38,16 @@ body{
 }
 
 .card{
-    background-color: black;
+    background-color: white;
+    border-radius: 8px;
 }
+
+#project {
+border-left: solid;
+border-width: 10px;
+border-color: orange;
+}
+
 
 .a{
     display: grid;
