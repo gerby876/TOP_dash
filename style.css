@@ -11,6 +11,13 @@ body{
 
 .sidebar{
     background-color: lightblue;
+    display: grid;
+    grid-template-rows:1fr 5fr;
+}
+
+.links>div{
+    padding-top: 20px;
+
 }
 
 .main {
