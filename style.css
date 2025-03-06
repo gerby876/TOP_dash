@@ -24,6 +24,10 @@ body{
     font-size: 2rem;
 }
 
+#side{
+    filter: brightness(0) invert(1);
+}
+
 .links>div{
     padding-top: 20px;
 
