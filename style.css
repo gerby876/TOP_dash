@@ -27,16 +27,29 @@ body{
 }
 
 .top{
-    /* display: inline-block; */
+    display: grid;
+    grid-template-columns: 1fr 15fr 1fr 1fr 1fr;
+}
+
+.search{
+    width: 75%;
+    height: 25%;
+    border-radius: 32px;
+    background-color: lightgray;
+    border: none;
 }
 
 .bottom{
     display: grid;
-    grid-template-columns: 1fr 7fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 15fr 2fr 2fr 2fr;
 }
 
 button{
-    border-radius: 16px;
+    border-radius: 32px;
+    height: 3em;
+    width: 9em;
+    background-color: lightblue;
+    border: none;
 }
 
 .main {
@@ -46,7 +59,7 @@ button{
 
 
 .body{
-    background-color: grey;
+    background-color: lightgrey;
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 20fr;
