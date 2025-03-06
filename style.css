@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
 body{
     margin: 0px;
+    font-family: Roboto;
 }
 
 .container{
@@ -10,10 +14,14 @@ body{
 }
 
 .sidebar{
-    background-color: lightblue;
+    background-color: royalblue;
     display: grid;
     grid-template-rows:1fr 5fr;
     padding-left: 20px;
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+    font-size: 2rem;
 }
 
 .links>div{
@@ -24,16 +32,19 @@ body{
 .header{
     display: grid;
     grid-template-rows: 1fr 1fr;
+    padding-left: 20px;
+    align-items: center;
 }
 
 .top{
     display: grid;
     grid-template-columns: 1fr 15fr 1fr 1fr 1fr;
+    font-weight: bold;
 }
 
 .search{
     width: 75%;
-    height: 25%;
+    height: 75%;
     border-radius: 32px;
     background-color: lightgray;
     border: none;
@@ -42,14 +53,17 @@ body{
 .bottom{
     display: grid;
     grid-template-columns: 1fr 15fr 2fr 2fr 2fr;
+    font-weight: bold;
 }
 
 button{
     border-radius: 32px;
     height: 3em;
     width: 9em;
-    background-color: lightblue;
+    background-color: royalblue;
     border: none;
+    color: white;
+    font-weight:bold;
 }
 
 .main {
