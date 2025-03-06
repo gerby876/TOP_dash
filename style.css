@@ -21,6 +21,24 @@ body{
 
 }
 
+.header{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.top{
+    /* display: inline-block; */
+}
+
+.bottom{
+    display: grid;
+    grid-template-columns: 1fr 7fr 1fr 1fr 1fr;
+}
+
+button{
+    border-radius: 16px;
+}
+
 .main {
     display: grid;
     grid-template-rows: 1fr 5fr;
