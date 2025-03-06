@@ -114,6 +114,7 @@ button{
 border-left: solid;
 border-width: 10px;
 border-color: orange;
+padding-left: 1em;
 }
 
 
@@ -144,6 +145,13 @@ border-color: orange;
     padding-top: 20px;
 }
 
+#trend{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
 .link{
     display: flex;
     flex: 1;
@@ -157,4 +165,8 @@ border-color: orange;
 
 h2{
     margin-bottom: 0;
+}
+
+.title{
+    font-weight: bold;
 }
